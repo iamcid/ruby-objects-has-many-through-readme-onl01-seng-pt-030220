@@ -8,7 +8,7 @@ class Meal
     @@all
   end
   
-  def initialize(waiter, customer, total, tip=0)
+  def initialize(waiter, cuhttps://learn.co/tracks/online-software-engineering-structured/object-oriented-ruby/object-relationships/has-many-objects-through#stomer, total, tip=0)
     @waiter = waiter
     @customer = customer
     @total = total
